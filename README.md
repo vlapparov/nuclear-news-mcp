@@ -158,7 +158,7 @@ flowchart TD
 Code lives in `src/news_mcp/`: `config.py` (all settings), `ingest.py`, `chunking.py`,
 `embeddings.py`, `store.py` (SQLite schema and queries), `search.py` (hybrid search and RRF),
 `auth.py` and `server.py` (instructions, tools, HTTP app). Evaluation and benchmark scripts are in
-`scripts/`, tests in `tests/`.
+`scripts/`, tests in `tests/`, and the data checks in `data_exploration.ipynb`.
 
 ### Main design decisions
 
@@ -193,6 +193,13 @@ annotators disagree noticeably (Pearson correlation of the article rating betwee
 0.52–0.69); coverage is uneven (432 articles for Fakt_pl to 5,207 for sme.sk); 258 titles are
 duplicates; some Slovak texts lost diacritics at scraping time; source bodies are cut at 32,767
 characters.
+
+**Where these numbers come from.** [`data_exploration.ipynb`](data_exploration.ipynb) checks each
+statement in this section against the raw dataset:
+
+```bash
+uv run --with jupyter jupyter lab data_exploration.ipynb
+```
 
 ### Retrieval
 
