@@ -1,0 +1,53 @@
+[project]
+name = "news-mcp"
+version = "0.1.0"
+description = "MCP server for exploring a multilingual Central European nuclear-energy news corpus"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "mcp>=2.3,<3",
+    "uvicorn>=0.30",
+    "langchain-text-splitters>=0.3",
+    # Intel Mac: last official PyTorch wheels are 2.2.2. That stack needs NumPy 1.x
+    # and transformers 4.x (5.x requires torch>=2.6 and then crashes importing `nn`).
+    "datasets>=4.0,<5 ; sys_platform == 'darwin' and platform_machine == 'x86_64'",
+    "datasets>=4.0 ; sys_platform != 'darwin' or platform_machine != 'x86_64'",
+    "huggingface-hub>=0.34,<1 ; sys_platform == 'darwin' and platform_machine == 'x86_64'",
+    "numpy>=1.26,<2 ; sys_platform == 'darwin' and platform_machine == 'x86_64'",
+    "numpy>=2.0 ; sys_platform != 'darwin' or platform_machine != 'x86_64'",
+    "pandas>=2.2,<3 ; sys_platform == 'darwin' and platform_machine == 'x86_64'",
+    "pyarrow>=15,<19 ; sys_platform == 'darwin' and platform_machine == 'x86_64'",
+    "sentence-transformers>=5.0,<6 ; sys_platform == 'darwin' and platform_machine == 'x86_64'",
+    "sentence-transformers>=5.0 ; sys_platform != 'darwin' or platform_machine != 'x86_64'",
+    "torch>=2.2.2,<2.3 ; sys_platform == 'darwin' and platform_machine == 'x86_64'",
+    "torch>=2.14 ; sys_platform != 'darwin' or platform_machine != 'x86_64'",
+    "transformers>=4.41,<5 ; sys_platform == 'darwin' and platform_machine == 'x86_64'",
+    # Needed by mcp (JWT support). From 49.0 there is no Intel-Mac wheel, so pip/uv would
+    # try to compile it with Rust; 48.x ships a "universal2" wheel that runs on Intel.
+    "cryptography<49 ; sys_platform == 'darwin' and platform_machine == 'x86_64'",
+]
+
+[project.scripts]
+news-mcp-ingest = "news_mcp.ingest:main"
+news-mcp-serve = "news_mcp.server:main"
+
+[dependency-groups]
+dev = [
+    "httpx>=0.28.1",
+    "pytest>=8.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+required-environments = [
+    "sys_platform == 'darwin' and platform_machine == 'x86_64'",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 120

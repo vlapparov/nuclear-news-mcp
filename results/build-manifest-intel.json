@@ -1,0 +1,7 @@
+{
+  "articles": 26483,
+  "chunks": 223653,
+  "chunking_seconds": 223.5,
+  "embedding_seconds": 27.6,
+  "embedding_preset": "fast"
+}

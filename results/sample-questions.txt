@@ -1,0 +1,668 @@
+==================================================================================================== 
+Q: According to Czech media, how much LNG was traded on world markets in 2021?
+-> search_articles({"query": "how much LNG was traded worldwide in 2021 světový obchod LNG milionů tun", "countries": ["Czech Republic"], "date_from": "2021", "limit": 5})
+{
+ "query": "how much LNG was traded worldwide in 2021 světový obchod LNG milionů tun",
+ "filters": {
+  "country": [
+   "Czech Republic"
+  ],
+  "date_from": "2021-01-01"
+ },
+ "results": [
+  {
+   "article_id": "6662",
+   "title": "Problém nastane na konci ledna 2023. Co ukazují projekce Evropy bez ruského plynu",
+   "source": "aktualne.cz",
+   "country": "Czech Republic",
+   "date": "2022-04-03",
+   "nuclear_sentiment": 3.0,
+   "headline_sentiment": 2.0,
+   "headline_alarmism": 4.0,
+   "chunk_index": 12,
+   "start_char": 4092,
+   "end_char": 4517,
+   "passage": "Podle odborníků by Evropa mohla situaci ustát také díky zkapalněnému zemnímu plynu (LNG), který už nyní tvoří zhruba třetinu importovaného plynu. Evropa má podle Tagliapietry pro dovoz i zpracování LNG sice dostatečnou kapacitu námořních terminálů, na světovém trhu je ho však zatím málo. V roce 2021 se na světových trzích obchodovalo celkem 5400 TWh zkapalněného plynu, největšími dovozci byly Čína, Japonsko a Jižní Korea.",
+   "score": 0.0328,
+   "matched_by": [
+    "keyword",
+    "semantic"
+   ]
+  },
+  {
+   "article_id": "2694",
+   "title": "Špicar: Firmy šetří, ale propouštět nechtějí",
+   "source": "novinky.cz",
+   "country": "Czech Republic",
+   "date": "2023-02-11",
+   "nuclear_sentiment": 4.333,
+   "headline_sentiment": 3.0,
+   "headline_alarmism": 1.333,
+   "chunk_index": 4,
+   "start_char": 1541,
+   "end_char": 1908,
+   "passage": "K tomu státy jako Německo nečekaně rychle budují LNG terminály. A také pomohla mírná zima a ekonomický útlum v mnoha státech světa včetně Číny snižující spotřebu LNG. Naše firmy jsou díky tomu teď schopné dostat se k elektřině i plynu v dostatečném objemu. I když za ceny vyšší, než byly zvyklé. Je to možné. Ve firemním světě dochází k tomu samému jako u domácností.",
+   "score": 0.0214,
+   "matched_by": [
+    "keyword",
+    "semantic"
+   ]
+  },
+  {
+   "article_id": "1232",
+   "title": "Představenstvo ČEZ si loni vydělalo 135 milionů Kč, šéf Beneš dostal 35 milionů",
+   "source": "novinky.cz",
+   "country": "Czech Republic",
+   "date": "2024-05-23",
+   "nuclear_sentiment": null,
+   "headline_sentiment": 2.667,
+   "headline_alarmism": 1.333,
+   "chunk_index": 3,
+   "start_char": 1185,
+   "end_char": 1499,
+   "passage": "Ředitel divize jaderná energetika Bohdan Zronek získal za loňský rok přes 14,7 milionu Kč a ředitelka sekce správa Michaela Chaloupková 14,7 milionu Kč. Přes 14,6 milionu korun pak připadlo i Janu Kalinovi, který je služebně nejmladší, když nastoupil do představenstva během roku 2021 a nahradil Ladislav Štěpánka.",
+   "score": 0.0206,
+   "matched_by": [
+    "keyword",
+    "semantic"
+   ]
+  },
+  {
+   "article_id": "3800",
+   "title": "Příjmy šéfů ČEZ byly stejné už druhý rok v řadě. Předsednictvo společnosti si loni vydělalo 135 milionů",
+   "source": "iROZHLAS",
+   "country": "Czech Republic",
+   "date": "2024-05-23",
+   "nuclear_sentiment": null,
+   "headline_sentiment": 3.0,
+   "headline_alarmism": 1.0,
+   "chunk_index": 3,
+   "start_char": 1189,
+   "end_char": 1504,
+   "passage": "Ředitel divize jaderná energetika Bohdan Zronek získal za loňský rok přes 14,7 milionu Kč a ředitelka sekce správa Michaela Chaloupková 14,7 milionu Kč. Přes 14,6 milionu korun pak připadlo i Janu Kalinovi, který je služebně nejmladší, když nastoupil do představenstva během roku 2021 a nahradil Ladislava Štěpánka.",
+   "score": 0.0201,
+   "matched_by": [
+    "keyword",
+    "semantic"
+   ]
+  },
+  {
+   "article_id": "8465",
+   "title": "Firmě prezidentova poradce Martina Nejedlého někdo opakovaně půjčoval desítky milionů",
+   "source": "aktualne.cz",
+   "country": "Czech Republic",
+   "date": "2021-11-24",
+   "nuclear_sentiment": 2.0,
+   "headline_sentiment": 2.0,
+   "headline_alarmism": 3.0,
+   "chunk_index": 14,
+   "start_char": 5557,
+   "end_char": 6012,
+   "passage": "Všechny ale byly krátkodobé, tedy splatné do jednoho roku. Z dokumentů lze vyčíst, že firmě s největší pravděpodobností někdo každoročně půjčoval až 120 milionů korun. I mezi lety 2010 a 2014, kdy výrazně omezila svou činnost a její obrat se z vyšších desítek milionů korun opět propadl na jednotky milionů. I v tomto období ovšem firma zároveň vykazovala, že jí neznámí obchodní partneři obdobnou částku, jako získávala od neznámých subjektů, zase dluží.",
+   "score": 0.0196,
+   "matched_by": [
+    "keyword",
+    "semantic"
+   ]
+  }
+ ]
+}
+==================================================================================================== 
+Q: How did sentiment towards nuclear energy change in Poland between 2010 and 2020?
+-> aggregate_articles({"group_by": ["year"], "countries": ["Poland"], "date_from": "2010", "date_to": "2020", "nuclear_related_only": true})
+{
+ "filters": {
+  "country": [
+   "Poland"
+  ],
+  "date_from": "2010-01-01",
+  "date_to": "2020-12-31",
+  "nuclear_related_only": true
+ },
+ "group_by": [
+  "year"
+ ],
+ "sentiment_model": "consensus",
+ "groups": [
+  {
+   "year": 2010,
+   "article_count": 109,
+   "sentiment_rated_count": 109,
+   "mean_nuclear_sentiment": 2.627,
+   "share_positive": 0.138,
+   "share_negative": 0.413,
+   "mean_headline_sentiment": 2.563,
+   "mean_headline_alarmism": 2.624,
+   "example_article_ids": [
+    "28716",
+    "30289",
+    "30277"
+   ]
+  },
+  {
+   "year": 2011,
+   "article_count": 570,
+   "sentiment_rated_count": 570,
+   "mean_nuclear_sentiment": 2.339,
+   "share_positive": 0.042,
+   "share_negative": 0.618,
+   "mean_headline_sentiment": 2.369,
+   "mean_headline_alarmism": 2.878,
+   "example_article_ids": [
+    "29716",
+    "29702",
+    "28627"
+   ]
+  },
+  {
+   "year": 2012,
+   "article_count": 170,
+   "sentiment_rated_count": 170,
+   "mean_nuclear_sentiment": 2.507,
+   "share_positive": 0.076,
+   "share_negative": 0.518,
+   "mean_headline_sentiment": 2.404,
+   "mean_headline_alarmism": 2.755,
+   "example_article_ids": [
+    "28427",
+    "31010",
+    "30994"
+   ]
+  },
+  {
+   "year": 2013,
+   "article_count": 208,
+   "sentiment_rated_count": 208,
+   "mean_nuclear_sentiment": 2.612,
+   "share_positive": 0.072,
+   "share_negative": 0.375,
+   "mean_headline_sentiment": 2.652,
+   "mean_headline_alarmism": 2.423,
+   "example_article_ids": [
+    "28303",
+    "29027",
+    "29019"
+   ]
+  },
+  {
+   "year": 2014,
+   "article_count": 242,
+   "sentiment_rated_count": 242,
+   "mean_nuclear_sentiment": 2.625,
+   "share_positive": 0.054,
+   "share_negative": 0.326,
+   "mean_headline_sentiment": 2.599,
+   "mean_headline_alarmism": 2.53,
+   "example_article_ids": [
+    "28267",
+    "28263",
+    "28258"
+   ]
+  },
+  {
+   "year": 2015,
+   "article_count": 214,
+   "sentiment_rated_count": 214,
+   "mean_nuclear_sentiment": 2.57,
+   "share_positive": 0.028,
+   "share_negative": 0.388,
+   "mean_headline_sentiment": 2.587,
+   "mean_headline_alarmism": 2.586,
+   "example_article_ids": [
+    "28232",
+    "28230",
+    "31532"
+   ]
+  },
+  {
+   "year": 2016,
+   "article_count": 115,
+   "sentiment_rated_count": 115,
+   "mean_nuclear_sentiment": 2.18,
+   "share_positive": 0.035,
+   "share_negative": 0.687,
+   "mean_headline_sentiment": 1.945,
+   "mean_headline_alarmism": 3.426,
+   "example_article_ids": [
+    "28738",
+    "28729",
+    "28727"
+   ]
+  },
+  {
+   "year": 2017,
+   "article_count": 128,
+   "sentiment_rated_count": 128,
+   "mean_nuclear_sentiment": 2.271,
+   "share_positive": 0.07,
+   "share_negative": 0.664,
+   "mean_headline_sentiment": 2.029,
+   "mean_headline_alarmism": 3.414,
+   "example_article_ids": [
+    "31394",
+    "31392",
+    "31391"
+   ]
+  },
+  {
+   "year": 2018,
+   "article_count": 103,
+   "sentiment_rated_count": 103,
+   "mean_nuclear_sentiment": 2.361,
+   "share_positive": 0.049,
+   "share_negative": 0.553,
+   "mean_headline_sentiment": 2.359,
+   "mean_headline_alarmism": 2.913,
+   "example_article_ids": [
+    "30436",
+    "31418",
+    "28524"
+   ]
+  },
+  {
+   "year": 2019,
+   "article_count": 138,
+   "sentiment_rated_count": 138,
+   "mean_nuclear_sentiment": 2.415,
+   "share_positive": 0.08,
+   "share_negative": 0.536,
+   "mean_headline_sentiment": 2.278,
+   "mean_headline_alarmism": 3.08,
+   "example_article_ids": [
+    "30235",
+    "30225",
+    "28453"
+   ]
+  },
+  {
+   "year": 2020,
+   "article_count": 97,
+   "sentiment_rated_count": 97,
+   "mean_nuclear_sentiment": 2.619,
+   "share_positive": 0.113,
+   "share_negative": 0.495,
+   "mean_headline_sentiment": 2.46,
+   "mean_headline_alarmism": 2.972,
+   "example_article_ids": [
+    "863",
+    "30241",
+    "29834"
+   ]
+  }
+ ]
+}
+==================================================================================================== 
+Q: How would you compare sentiment towards nuclear energy in Slovakia and Hungary in 2022?
+-> aggregate_articles({"group_by": ["country"], "countries": ["Slovakia", "Hungary"], "date_from": "2022", "date_to": "2022", "nuclear_related_only": true})
+{
+ "filters": {
+  "country": [
+   "Slovakia",
+   "Hungary"
+  ],
+  "date_from": "2022-01-01",
+  "date_to": "2022-12-31",
+  "nuclear_related_only": true
+ },
+ "group_by": [
+  "country"
+ ],
+ "sentiment_model": "consensus",
+ "groups": [
+  {
+   "country": "Hungary",
+   "article_count": 918,
+   "sentiment_rated_count": 918,
+   "mean_nuclear_sentiment": 2.842,
+   "share_positive": 0.225,
+   "share_negative": 0.386,
+   "mean_headline_sentiment": 2.432,
+   "mean_headline_alarmism": 2.954,
+   "example_article_ids": [
+    "20174",
+    "20731",
+    "23344"
+   ]
+  },
+  {
+   "country": "Slovakia",
+   "article_count": 514,
+   "sentiment_rated_count": 514,
+   "mean_nuclear_sentiment": 2.498,
+   "share_positive": 0.138,
+   "share_negative": 0.56,
+   "mean_headline_sentiment": 2.252,
+   "mean_headline_alarmism": 3.348,
+   "example_article_ids": [
+    "12368",
+    "9557",
+    "12093"
+   ]
+  }
+ ]
+}
+==================================================================================================== 
+Q: Which Polish publications had the highest number of articles about nuclear energy in 2020?
+-> aggregate_articles({"group_by": ["source"], "countries": ["Poland"], "date_from": "2020", "date_to": "2020", "nuclear_related_only": true, "order_by": "count"})
+{
+ "filters": {
+  "country": [
+   "Poland"
+  ],
+  "date_from": "2020-01-01",
+  "date_to": "2020-12-31",
+  "nuclear_related_only": true
+ },
+ "group_by": [
+  "source"
+ ],
+ "sentiment_model": "consensus",
+ "groups": [
+  {
+   "source": "Onet_pl",
+   "article_count": 68,
+   "sentiment_rated_count": 68,
+   "mean_nuclear_sentiment": 2.505,
+   "share_positive": 0.059,
+   "share_negative": 0.544,
+   "mean_headline_sentiment": 2.358,
+   "mean_headline_alarmism": 3.034,
+   "example_article_ids": [
+    "30241",
+    "29834",
+    "30247"
+   ]
+  },
+  {
+   "source": "Fakt_pl",
+   "article_count": 16,
+   "sentiment_rated_count": 16,
+   "mean_nuclear_sentiment": 2.417,
+   "share_positive": 0.063,
+   "share_negative": 0.563,
+   "mean_headline_sentiment": 2.292,
+   "mean_headline_alarmism": 3.5,
+   "example_article_ids": [
+    "28560",
+    "28568",
+    "28570"
+   ]
+  },
+  {
+   "source": "Wirtualna Polska",
+   "article_count": 13,
+   "sentiment_rated_count": 13,
+   "mean_nuclear_sentiment": 3.462,
+   "share_positive": 0.462,
+   "share_negative": 0.154,
+   "mean_headline_sentiment": 3.205,
+   "mean_headline_alarmism": 2.0,
+   "example_article_ids": [
+    "863",
+    "352",
+    "248"
+   ]
+  }
+ ]
+}
+==================================================================================================== 
+Q: Summarise how media across the four countries covered topics related to nuclear weapons in 2023.
+-> search_by_group({"query": "nuclear weapons broń jądrowa jaderné zbraně jadrové zbrane atomfegyver", "group_by": "country", "date_from": "2023", "date_to": "2023", "per_group": 3})
+{
+ "query": "nuclear weapons broń jądrowa jaderné zbraně jadrové zbrane atomfegyver",
+ "filters": {
+  "date_from": "2023-01-01",
+  "date_to": "2023-12-31"
+ },
+ "group_by": "country",
+ "groups": [
+  {
+   "country": "Czech Republic",
+   "results": [
+    {
+     "article_id": "5070",
+     "title": "Jižní Korea už nevěří ochraně Spojených států. Zvažuje vývoj vlastních jaderných zbraní",
+     "source": "iROZHLAS",
+     "country": "Czech Republic",
+     "date": "2023-03-21",
+     "nuclear_sentiment": 3.667,
+     "headline_sentiment": 2.0,
+     "headline_alarmism": 4.0,
+     "chunk_index": 8,
+     "start_char": 2833,
+     "end_char": 3181,
+     "passage": "Obává se, že pokud by Soul jaderné zbraně vyvinul, mohlo by to spustit „závody“ ve zbrojení a zmařit naději na zbavení Severní Koreje jaderných zbraní. V době studené války byly v Jižní Koreji rozmístěné jaderné zbraně Spojených států. V roce 1991 tehdejší prezident George Bushnechal stáhnoutvšechny taktické jaderné zbraně rozmístěné v zahraničí.",
+     "score": 0.03,
+     "matched_by": [
+      "keyword",
+      "semantic"
+     ]
+    },
+    {
+     "article_id": "4022",
+     "title": "Čínský prezident v březnu varoval Putina před použitím jaderných zbraní na Ukrajině",
+     "source": "iROZHLAS",
+     "country": "Czech Republic",
+     "date": "2023-07-05",
+     "nuclear_sentiment": 2.0,
+     "headline_sentiment": 3.333,
+     "headline_alarmism": 2.667,
+     "chunk_index": 7,
+     "start_char": 2856,
+     "end_char": 3290,
+     "passage": "Toto prohlášení přišlo uprostřed zvýšených obav na Západě, že by Rusko mohlo použít taktické jaderné zbraně v reakci na ponižující neúspěchy na Ukrajině. Spojené státy, Británie a Francie Kremlu sdělily, že pokud Rusko použije taktické jaderné zbraně, zasáhnou proti jeho silám konvenčními zbraněmi, píše britský deník. Šéf Kremlu později upustil od své rétoriky a několik měsíců se o taktických jaderných zbraních veřejně nezmiňoval.",
+     "score": 0.0283,
+     "matched_by": [
+      "keyword",
+      "semantic"
+     ]
+    },
+    {
+     "article_id": "4862",
+     "title": "Jaderné odstrašování funguje do doby, než selže. Ukrajina nese břemeno této taktiky, míní expertka",
+     "source": "iROZHLAS",
+     "country": "Czech Republic",
+     "date": "2023-04-28",
+     "nuclear_sentiment": 1.667,
+     "headline_sentiment": 1.667,
+     "headline_alarmism": 3.667,
+     "chunk_index": 18,
+     "start_char": 6788,
+     "end_char": 7157,
+     "passage": "S ohledem na „jaderná prohlášení“ ze strany Ruska, kdy hlásí, že možná použijí jaderné zbraně a možná také ne… Přináší jim tato taktika nějaké výhody? Bezpochyby. Rusko zneužívá to, že má jaderné zbraně, aby udrželo NATO stranou války. To je podle mě celá strategie. Napadli Ukrajinu a zároveň potřebují, aby se do války nezapojilo NATO. Proto hrozí jadernými zbraněmi.",
+     "score": 0.0272,
+     "matched_by": [
+      "keyword",
+      "semantic"
+     ]
+    }
+   ]
+  },
+  {
+   "country": "Hungary",
+   "results": [
+    {
+     "article_id": "21786",
+     "title": "Most van nagy baj: atomcsapással fenyegeti egy atomhatalom Izraelt",
+     "source": "origo.hun",
+     "country": "Hungary",
+     "date": "2023-10-18",
+     "nuclear_sentiment": 1.667,
+     "headline_sentiment": 1.0,
+     "headline_alarmism": 4.667,
+     "chunk_index": 2,
+     "start_char": 477,
+     "end_char": 859,
+     "passage": "– fogalmazott Sarwat Fatima. Pakistan MP Sarwat Fatima suggests preemptively striking Israel with a nuclear , warhead loaded with chicken masala .\"Pakistan's nuclear weapons are not a showpiece, I demand that the government use our nuclear missiles as a deterrent, and I warn the Israelis that if they…pic.twitter.com/KeCXCGscNv Kedd este hatalmas robbanás volt egy gázai kórházban.",
+     "score": 0.0328,
+     "matched_by": [
+      "keyword",
+      "semantic"
+     ]
+    },
+    {
+     "article_id": "27766",
+     "title": "Soha ilyen közel nem állt még az éjfélhez az atomháborút jelző óra",
+     "source": "index.hu",
+     "country": "Hungary",
+     "date": "2023-12-11",
+     "nuclear_sentiment": 1.667,
+     "headline_sentiment": 1.0,
+     "headline_alarmism": 4.333,
+     "chunk_index": 14,
+     "start_char": 5271,
+     "end_char": 5590,
+     "passage": "Egyezmények A nukleáris fegyverekre vonatkozóegyezményekközül megemlítendők a következők. Az atomfegyverek további terjedésének megakadályozása érdekében 1968-ban létrejött az Atomsorompó Szerződés (Nuclear Non-Proliferation Treaty), 1996-ban pedig az Átfogó Atomcsend Szerződés (Comprehensive Nuclear-Test-Ban Treaty).",
+     "score": 0.0317,
+     "matched_by": [
+      "keyword",
+      "semantic"
+     ]
+    },
+    {
+     "article_id": "21161",
+     "title": "Nógrádi György: A taktikai atomfegyver körülbelül húsz négyzetkilométeren vet véget az életnek",
+     "source": "origo.hun",
+     "country": "Hungary",
+     "date": "2023-04-14",
+     "nuclear_sentiment": 1.667,
+     "headline_sentiment": 1.0,
+     "headline_alarmism": 4.0,
+     "chunk_index": 9,
+     "start_char": 3375,
+     "end_char": 3637,
+     "passage": "888: Egy potenciális világháború esetén a nukleáris hatalmak megelégednének a hagyományos háborúskodással vagy azonnal atomfegyverekhez nyúlnának? Nógrádi György:Minden haditerv szigorúan titkos. Nyilván az a fél, amelyik vesztésre állna bevetné az atomfegyvert.",
+     "score": 0.0313,
+     "matched_by": [
+      "keyword",
+      "semantic"
+     ]
+    }
+   ]
+  },
+  {
+   "country": "Poland",
+   "results": [
+    {
+     "article_id": "30755",
+     "title": "Nuklearny wyścig zbrojeń. Rośnie liczba aktywnych głowic",
+     "source": "Onet_pl",
+     "country": "Poland",
+     "date": "2023-03-29",
+     "nuclear_sentiment": 1.667,
+     "headline_sentiment": 1.0,
+     "headline_alarmism": 4.0,
+     "chunk_index": 1,
+     "start_char": 411,
+     "end_char": 771,
+     "passage": "liczba gotowych do użycia głowic zwiększyła się do 9 tys. 576 — podaje Nuclear Weapons Ban Monitor (Monitor zakazu broni nuklearnej), organizacja badawcza powołana przez Międzynarodową Kampanię na rzecz Zniesienia Broni Nuklearnej (ICAN) i norweski fundusz NPA. Dalsza część artykułu pod materiałem wideo: Od 2022 r. arsenał atomowy wzbogacił się o 136 głowic.",
+     "score": 0.0318,
+     "matched_by": [
+      "keyword",
+      "semantic"
+     ]
+    },
+    {
+     "article_id": "29982",
+     "title": "Broń jądrowa trafi do Polski? USA odpowiadają na apel Morawieckiego",
+     "source": "Onet_pl",
+     "country": "Poland",
+     "date": "2023-06-30",
+     "nuclear_sentiment": 3.0,
+     "headline_sentiment": 2.667,
+     "headline_alarmism": 3.333,
+     "chunk_index": 5,
+     "start_char": 1832,
+     "end_char": 2295,
+     "passage": "— My nie chcemy siedzieć z założonymi rękoma, kiedy Putin eskaluje różnego rodzaju groźby — mówił premier. Czym jest Nuclear Sharing? To program NATO, będący elementem polityki Sojuszu w zakresie odstraszania jądrowego. Umożliwia on udostępnienie głowic jądrowych państwom członkowskim nieposiadającym własnej broni jądrowej. Od listopada 2009 r. w ramach Nuclear Sharing amerykańska broń jądrowa znajduje się na terenie Belgii, Niemiec, Włoch, Holandii i Turcji.",
+     "score": 0.0297,
+     "matched_by": [
+      "keyword",
+      "semantic"
+     ]
+    },
+    {
+     "article_id": "30766",
+     "title": "Broń nuklearna. Niemcy balansują na krawędzi",
+     "source": "Onet_pl",
+     "country": "Poland",
+     "date": "2023-04-04",
+     "nuclear_sentiment": 2.333,
+     "headline_sentiment": 2.0,
+     "headline_alarmism": 4.0,
+     "chunk_index": 6,
+     "start_char": 2384,
+     "end_char": 2823,
+     "passage": "Porozumienie o współdzieleniu taktycznej broni nuklearnej (NATO nuclear sharing) zakłada udostępnianie jej tym państwom NATO, które jej nie posiadają. Oznacza to w zasadzie, że ta wieloletnia polityka sojuszu, kierowanego przez USA, pozwala na rozmieszczenie amerykańskiej broni jądrowej na terytorium nienależącym do USA, a to z kolei oznacza, że niemieckie samoloty wojskowe mogłyby transportować broń jądrową w przypadku wojny atomowej.",
+     "score": 0.0294,
+     "matched_by": [
+      "keyword",
+      "semantic"
+     ]
+    }
+   ]
+  },
+  {
+   "country": "Slovakia",
+   "results": [
+    {
+     "article_id": "11772",
+     "title": "Ruské jadrové zbrane bliie k Európe. Presun do Bieloruska sa u zaal",
+     "source": "pravda.sk",
+     "country": "Slovakia",
+     "date": "2023-05-25",
+     "nuclear_sentiment": 2.0,
+     "headline_sentiment": 1.667,
+     "headline_alarmism": 4.0,
+     "chunk_index": 8,
+     "start_char": 2980,
+     "end_char": 3180,
+     "passage": "Viac i menej otvorené jadrové hrozby pritom zMoskvy zaznievajú opakovane. Taktické jadrové zbrane smenou výbunou silou sú urené na vyuitie na bojisku a nie sú tak niivé ako strategické jadrové zbrane.",
+     "score": 0.032,
+     "matched_by": [
+      "keyword",
+      "semantic"
+     ]
+    },
+    {
+     "article_id": "11743",
+     "title": "Putin: Rusko rozmiestni v Bielorusku taktické jadrové zbrane",
+     "source": "pravda.sk",
+     "country": "Slovakia",
+     "date": "2023-03-25",
+     "nuclear_sentiment": 2.0,
+     "headline_sentiment": 2.333,
+     "headline_alarmism": 3.667,
+     "chunk_index": 7,
+     "start_char": 2097,
+     "end_char": 2436,
+     "passage": "Taktické jadrové zbrane smenou výbunou silou sú urené na vyuitie na bojisku a nie sú také niivé ako strategické jadrové zbrane. Analytik Nikolaj Sokol zviedenského Centra pre odzbrojenie a neírenie jadrových zbraní (VCDNP) agentúre AP povedal, e rozhodnutie orozmiestnení jadrových zbraní vBielorusku je pre Rusko významnou zmenou postoja.",
+     "score": 0.0315,
+     "matched_by": [
+      "keyword",
+      "semantic"
+     ]
+    },
+    {
+     "article_id": "11782",
+     "title": "Biden: Hrozba, e Putin pouije jadrové zbrane, je reálna",
+     "source": "pravda.sk",
+     "country": "Slovakia",
+     "date": "2023-06-20",
+     "nuclear_sentiment": 2.0,
+     "headline_sentiment": 1.0,
+     "headline_alarmism": 4.0,
+     "chunk_index": 3,
+     "start_char": 1183,
+     "end_char": 1579,
+     "passage": "Washington tie uviedol, e nevidí nijaké náznaky, e by sa Rusko pripravovalo na pouitie jadrových zbraní. Vmáji Moskva odmietla Bidenovu kritiku jej plánu rozmiestni jadrové zbrane vBielorusku stým, e USA majú vEurópe rozmiestnené jadrové zbrane celé desaroia. Rozmiestovanie ruských jadrových zbraní pozorne sleduje iína, ktorá opakovane varuje pred pouitím jadrových zbraní vo vojne na Ukrajine.",
+     "score": 0.03,
+     "matched_by": [
+      "keyword",
+      "semantic"
+     ]
+    }
+   ]
+  }
+ ]
+}
